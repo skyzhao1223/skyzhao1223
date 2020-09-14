@@ -1,6 +1,4 @@
-### Hi there 👋
-
-## :man_technologist:  Hey!  i'm [Sky Zhao](https://zhaosky.cn/).
+## :man_technologist:  Hi there! 👋 i'm [Sky Zhao](https://zhaosky.cn/).
 
 ### :zap: Languages I use
 

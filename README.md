@@ -1,15 +1,31 @@
 # Sky Zhao
 
-Full-stack developer at PKU. I build developer tools, CLI utilities, and MCP servers.
+**Full-stack developer · Building CLI tools & MCP servers · PKU**
 
-🌐 [zhaosky.cn](https://zhaosky.cn) · 📫 [GitHub](https://github.com/skyzhao1223)
+📍 Beijing · 🌐 [zhaosky.cn](https://zhaosky.cn) · 📫 [GitHub](https://github.com/skyzhao1223)
 
-## Currently building
+## Featured Projects
 
-| Project | Description |
-|---------|-------------|
-| [zspace-cli](https://github.com/skyzhao1223/zspace-cli) | CLI, SDK & MCP Server for ZSpace NAS — manage files from terminal or AI agents |
-| [media-naming-guide](https://github.com/skyzhao1223/media-naming-guide) | Chinese media library naming conventions for Plex/Emby/Jellyfin + Cursor AI Skill |
+<a href="https://github.com/skyzhao1223/zspace-cli">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=skyzhao1223&repo=zspace-cli&hide_border=true&title_color=2f81f7&text_color=1f2328&icon_color=2f81f7" />
+</a>
+<a href="https://github.com/skyzhao1223/media-naming-guide">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=skyzhao1223&repo=media-naming-guide&hide_border=true&title_color=2f81f7&text_color=1f2328&icon_color=2f81f7" />
+</a>
+<a href="https://github.com/skyzhao1223/admin-dashboard">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=skyzhao1223&repo=admin-dashboard&hide_border=true&title_color=2f81f7&text_color=1f2328&icon_color=2f81f7" />
+</a>
+<a href="https://github.com/skyzhao1223/skyzhao1223.github.io">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=skyzhao1223&repo=skyzhao1223.github.io&hide_border=true&title_color=2f81f7&text_color=1f2328&icon_color=2f81f7" />
+</a>
+<a href="https://github.com/skyzhao1223/JStation">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=skyzhao1223&repo=JStation&hide_border=true&title_color=2f81f7&text_color=1f2328&icon_color=2f81f7" />
+</a>
+<a href="https://github.com/skyzhao1223/cosmology-tech-code-challenge-v4">
+  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=skyzhao1223&repo=cosmology-tech-code-challenge-v4&hide_border=true&title_color=2f81f7&text_color=1f2328&icon_color=2f81f7" />
+</a>
+
+<br clear="left"/>
 
 ## Stack
 

@@ -1,22 +1,10 @@
-# Hi there 👋
+## Projects
 
-I am **SKY ZHAO**, a full-stack developer. Building CLI tools, MCP servers, and AI agent skills.
+### [zspace-cli](https://github.com/skyzhao1223/zspace-cli)
+Zero-config CLI / SDK / MCP for ZSpace NAS. No password, no SSH — plug in and manage your NAS.
 
-## 🚀 Featured Project
+### [agent-skills-cn](https://github.com/skyzhao1223/agent-skills-cn)
+A curated collection of AI agent skills: token optimization, security-by-default, and practical development workflows.
 
-### [🐉 agent-skills-cn](https://github.com/skyzhao1223/agent-skills-cn)
-AI Agent 技能合集，专为中文开发者设计。
-- token-frugal 🪨 — 少用 token 多说事
-- security-first 🔒 — 默认安全的代码
-- lazy-dev 😴 — 偷懒但高效
-- chinese-stack 🐉 — 更懂中国技术栈
-
-## 🏆 GitHub Achievements
-
-| Pull Shark | YOLO | Quickdraw | Arctic Code Vault | Pair Extraordinaire |
-|---|---|---|---|---|
-| 🥈 | 🥉 | 🥈 | 🏆 | 🥉 |
-
-## ⚡ Fun fact
-
-My code is in the Arctic Code Vault ❄️
+### [skyzhao1223.github.io](https://github.com/skyzhao1223/skyzhao1223.github.io)
+Bilingual personal site — blog and portfolio.

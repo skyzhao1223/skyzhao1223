@@ -50,11 +50,8 @@ Building agent skills, MCP servers and CLI tools that make AI agents useful in r
 
 <a id="zh"></a>
 
-<div align="center">
-
-[English](#en) | **简体中文**
-
-</div>
+<details>
+<summary><b>🇨🇳 简体中文版本(点击展开)</b></summary>
 
 构建 Agent 技能、MCP 服务器与 CLI 工具,让 AI 代理真正融入日常工作流。
 
@@ -90,6 +87,10 @@ Building agent skills, MCP servers and CLI tools that make AI agents useful in r
 ## 🔗 链接
 
 - 🌐 博客与作品集:[zhaosky.cn](https://zhaosky.cn) · [skyzhao1223.github.io](https://github.com/skyzhao1223/skyzhao1223.github.io)
+
+<div align="right"><a href="#en">↑ 返回 English</a></div>
+
+</details>
 
 <div align="center">
 <sub>🔄 项目列表由 GitHub Actions 每周一自动同步,人工维护请改 <code>projects.json</code> · Auto-synced weekly</sub>

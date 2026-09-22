@@ -129,7 +129,7 @@ for (const [name, repo] of live) {
 
 let readme = readFileSync(readmePath, 'utf8');
 const original = readme;
-for (const [tag, lang] of [['EN', 'en'], ['ZH', 'zh']]) {
+for (const [tag, lang] of [['EN', 'en']]) {
   const start = `<!-- PROJECTS:${tag}:START -->`;
   const end = `<!-- PROJECTS:${tag}:END -->`;
   const i = readme.indexOf(start);

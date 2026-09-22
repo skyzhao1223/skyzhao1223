@@ -75,6 +75,11 @@ function trimDescription(text) {
   return (cut > 80 ? head.slice(0, cut) : head) + '…';
 }
 
+function starsBadge(username, repoName) {
+  return `[![stars](https://img.shields.io/github/stars/${username}/${repoName}?style=social)]` +
+    `(https://github.com/${username}/${repoName}/stargazers)`;
+}
+
 function renderLang(lang, byCategory) {
   const lines = [];
   for (const cat of config.categories) {
@@ -83,7 +88,7 @@ function renderLang(lang, byCategory) {
     lines.push(`## ${cat.icon} ${cat[lang]}`, '');
     for (const { repo, meta } of entries) {
       const desc = (meta[lang] || meta.en || trimDescription(repo.description) || '—').trim();
-      lines.push(`- **[${repo.name}](${repo.html_url})** — ${desc}`);
+      lines.push(`- **[${repo.name}](${repo.html_url})** ${starsBadge(config.username, repo.name)} — ${desc}`);
     }
     lines.push('');
   }

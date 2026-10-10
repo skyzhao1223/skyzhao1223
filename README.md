@@ -34,7 +34,7 @@ Building agent skills, MCP servers and CLI tools that make AI agents useful in r
 
 ## 🎁 Resources & Apps
 
-- **[free-for-creators](https://github.com/skyzhao1223/free-for-creators)** [![stars](https://img.shields.io/github/stars/skyzhao1223/free-for-creators?style=social)](https://github.com/skyzhao1223/free-for-creators/stargazers) — 🎁 License-verified free assets for creators: 148 resources for music, SFX, footage, photos, fonts, icons, LUTs, mockups & 3D, each tagged with attribution and monetization rules. ([Browse →](https://skyzhao1223.github.io/free-for-creators/))
+- **[free-for-creators](https://github.com/skyzhao1223/free-for-creators)** [![stars](https://img.shields.io/github/stars/skyzhao1223/free-for-creators?style=social)](https://github.com/skyzhao1223/free-for-creators/stargazers) — 🎁 License-verified free assets for creators: 172 resources for music, SFX, footage, photos, fonts, icons, LUTs, mockups & 3D, each tagged with attribution and monetization rules. ([Browse →](https://skyzhao1223.github.io/free-for-creators/))
 - **[geo-contacts](https://github.com/skyzhao1223/geo-contacts)** [![stars](https://img.shields.io/github/stars/skyzhao1223/geo-contacts?style=social)](https://github.com/skyzhao1223/geo-contacts/stargazers) — Geographic contacts PWA with family tree and friend presence.
 <!-- PROJECTS:EN:END -->
 

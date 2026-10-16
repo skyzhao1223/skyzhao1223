@@ -4,7 +4,7 @@
 
 [![Blog](https://img.shields.io/badge/Blog-zhaosky.cn-2ea44f?style=flat-square)](https://zhaosky.cn)
 [![PyPI](https://img.shields.io/pypi/v/zspace-cli?style=flat-square&logo=pypi&logoColor=white&label=PyPI)](https://pypi.org/project/zspace-cli/)
-[![OSS](https://img.shields.io/badge/OSS-23%20merged%20PRs-2ea44f?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
+[![OSS](https://img.shields.io/badge/OSS-21%20merged%20PRs-2ea44f?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
 
 </div>
 
@@ -12,7 +12,7 @@ Building agent skills, MCP servers and CLI tools that make AI agents useful in r
 
 ## 🌍 Open-Source Contributions
 
-Merged work into repositories maintained by other teams — **23 PRs across 13 projects**, reviewed and merged by their maintainers.
+Merged work into repositories maintained by other teams — **21 PRs across 12 projects**, reviewed and merged by their maintainers.
 
 | Project | Contribution |
 |---|---|

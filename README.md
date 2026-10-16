@@ -4,7 +4,7 @@
 
 [![Blog](https://img.shields.io/badge/Blog-zhaosky.cn-2ea44f?style=flat-square)](https://zhaosky.cn)
 [![PyPI](https://img.shields.io/pypi/v/zspace-cli?style=flat-square&logo=pypi&logoColor=white&label=PyPI)](https://pypi.org/project/zspace-cli/)
-[![OSS](https://img.shields.io/badge/OSS-21%20merged%20PRs-2ea44f?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
+[![OSS](https://img.shields.io/badge/OSS-23%20merged%20PRs-2ea44f?style=flat-square)](https://github.com/skyzhao1223/open-source-contributions)
 
 </div>
 
@@ -12,11 +12,11 @@ Building agent skills, MCP servers and CLI tools that make AI agents useful in r
 
 ## 🌍 Open-Source Contributions
 
-Merged work into repositories maintained by other teams — **21 PRs across 12 projects**, reviewed and merged by their maintainers.
+Merged work into repositories maintained by other teams — **23 PRs across 12 projects**, reviewed and merged by their maintainers.
 
 | Project | Contribution |
 |---|---|
-| **[openclaw/openclaw](https://github.com/openclaw/openclaw)** · 392k★ | Fixed a Windows credential-staging failure where a cleanup `EBUSY`/`EPERM` masked the real provider setup result — [#172379](https://github.com/openclaw/openclaw/pull/172379) |
+| **[openclaw/openclaw](https://github.com/openclaw/openclaw)** · 392k★ | 3 merged fixes — credential-staging cleanup that masked the real setup result ([#172379](https://github.com/openclaw/openclaw/pull/172379)), pointless same-model retries on Chinese quota exhaustion ([#172173](https://github.com/openclaw/openclaw/pull/172173)), malformed redaction entries breaking the log pipeline ([#173471](https://github.com/openclaw/openclaw/pull/173471)) |
 | **[anomalyco/opencode](https://github.com/anomalyco/opencode)** · 214k★ | Provider / PAT docs fixes and two dead links — [#42034](https://github.com/anomalyco/opencode/pull/42034) · [#42048](https://github.com/anomalyco/opencode/pull/42048) |
 | **[labring/FastGPT](https://github.com/labring/FastGPT)** · 29.8k★ | Root-caused "exported backup cannot be re-imported"; zh-CN typography pass — [#7590](https://github.com/labring/FastGPT/pull/7590) · [#7591](https://github.com/labring/FastGPT/pull/7591) |
 | **[esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)** · 35.8k★ | Fixed a permanent session hang when an SSE client attaches after an approval is queued — [#7708](https://github.com/esengine/DeepSeek-Reasonix/pull/7708) |

@@ -30,6 +30,39 @@ const config = JSON.parse(readFileSync(join(root, 'projects.json'), 'utf8'));
 const readmePath = join(root, 'README.md');
 const checkOnly = process.argv.includes('--check');
 
+/**
+ * 把 projects.json 里 {count} 占位符替换成真实数字。
+ * 条目可选声明 countSource = { repo, pattern }：抓取该仓库的 README，
+ * 用 pattern 的第一个捕获组取值（例如徽章里的资源总数）。
+ */
+async function resolveCounts() {
+  const headers = {
+    Accept: 'application/vnd.github+json',
+    'User-Agent': 'profile-readme-sync',
+  };
+  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  const out = new Map();
+  for (const [name, meta] of Object.entries(config.projects || {})) {
+    const src = meta.countSource;
+    if (!src) continue;
+    try {
+      const res = await fetch(`https://api.github.com/repos/${src.repo}/readme`, { headers });
+      if (!res.ok) {
+        console.warn(`warning: count source ${src.repo} -> HTTP ${res.status}`);
+        continue;
+      }
+      const text = Buffer.from((await res.json()).content, 'base64').toString('utf8');
+      const m = text.match(new RegExp(src.pattern));
+      if (m) out.set(name, m[1]);
+      else console.warn(`warning: count pattern not found in ${src.repo}/README.md`);
+    } catch (err) {
+      console.warn(`warning: count source ${src.repo} failed: ${err.message}`);
+    }
+  }
+  return out;
+}
+const counts = await resolveCounts();
+
 async function fetchRepos(username) {
   const headers = {
     Accept: 'application/vnd.github+json',
@@ -87,7 +120,8 @@ function renderLang(lang, byCategory) {
     if (!entries.length) continue;
     lines.push(`## ${cat.icon} ${cat[lang]}`, '');
     for (const { repo, meta } of entries) {
-      const desc = (meta[lang] || meta.en || trimDescription(repo.description) || '—').trim();
+      const raw = (meta[lang] || meta.en || trimDescription(repo.description) || '—').trim();
+      const desc = counts.has(repo.name) ? raw.replaceAll('{count}', counts.get(repo.name)) : raw;
       lines.push(`- **[${repo.name}](${repo.html_url})** ${starsBadge(config.username, repo.name)} — ${desc}`);
     }
     lines.push('');

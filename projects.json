@@ -82,8 +82,9 @@
     },
     "free-for-creators": {
       "category": "resources",
-      "en": "🎁 License-verified free assets for creators: 148 resources for music, SFX, footage, photos, fonts, icons, LUTs, mockups & 3D, each tagged with attribution and monetization rules. ([Browse →](https://skyzhao1223.github.io/free-for-creators/))",
-      "zh": "🎁 许可透明的创作者免费素材清单:音乐、音效、视频素材、图片、字体、图标、LUT、样机与 3D 共 148 项,逐项标注署名与商用规则。([在线浏览 →](https://skyzhao1223.github.io/free-for-creators/))"
+      "countSource": { "repo": "skyzhao1223/free-for-creators", "pattern": "resources-(\\d+)-blue" },
+      "en": "🎁 License-verified free assets for creators: {count} resources for music, SFX, footage, photos, fonts, icons, LUTs, mockups & 3D, each tagged with attribution and monetization rules. ([Browse →](https://skyzhao1223.github.io/free-for-creators/))",
+      "zh": "🎁 许可透明的创作者免费素材清单:音乐、音效、视频素材、图片、字体、图标、LUT、样机与 3D 共 {count} 项,逐项标注署名与商用规则。([在线浏览 →](https://skyzhao1223.github.io/free-for-creators/))"
     },
     "geo-contacts": {
       "category": "resources",

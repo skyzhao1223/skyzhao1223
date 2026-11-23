@@ -44,6 +44,9 @@ Merged work into repositories maintained by other teams — **24 PRs across 13 p
 - **[doc2md](https://github.com/skyzhao1223/doc2md)** [![stars](https://img.shields.io/github/stars/skyzhao1223/doc2md?style=social)](https://github.com/skyzhao1223/doc2md/stargazers) — MCP server: convert PDF / DOCX / PPTX / XLSX / EPUB / HTML & scanned docs to clean Markdown — URL-first, keyless, table-preserving, with OCR, split/merge and search.
 - **[sops-vault-kit](https://github.com/skyzhao1223/sops-vault-kit)** [![stars](https://img.shields.io/github/stars/skyzhao1223/sops-vault-kit?style=social)](https://github.com/skyzhao1223/sops-vault-kit/stargazers) — Local-first, AI-manageable encrypted credential vault: sops + age + git, 30-command CLI, browser panel, TOTP, audit log, offline key cards, built-in AGENTS.md — one install.sh.
 - **[ops-copilot](https://github.com/skyzhao1223/ops-copilot)** [![stars](https://img.shields.io/github/stars/skyzhao1223/ops-copilot?style=social)](https://github.com/skyzhao1223/ops-copilot/stargazers) — Self-hosted, self-healing ops. Alerts drive coding agents to fix their own bugs, gated by tests and human approval.
+- **[toposky](https://github.com/skyzhao1223/toposky)** [![stars](https://img.shields.io/github/stars/skyzhao1223/toposky?style=social)](https://github.com/skyzhao1223/toposky/stargazers) — System dependency graph with evidence and impact analysis
+- **[zspace-docs](https://github.com/skyzhao1223/zspace-docs)** [![stars](https://img.shields.io/github/stars/skyzhao1223/zspace-docs?style=social)](https://github.com/skyzhao1223/zspace-docs/stargazers) — zspace-cli 的文档站与落地页 —— 极空间 NAS 的命令行与 AI 接口
+- **[eye-challenge](https://github.com/skyzhao1223/eye-challenge)** [![stars](https://img.shields.io/github/stars/skyzhao1223/eye-challenge?style=social)](https://github.com/skyzhao1223/eye-challenge/stargazers) — —
 
 ## 🧩 DeepSeek Harness (DSH) Plugins
 
@@ -53,7 +56,7 @@ Merged work into repositories maintained by other teams — **24 PRs across 13 p
 
 ## 🎁 Resources & Apps
 
-- **[free-for-creators](https://github.com/skyzhao1223/free-for-creators)** [![stars](https://img.shields.io/github/stars/skyzhao1223/free-for-creators?style=social)](https://github.com/skyzhao1223/free-for-creators/stargazers) — 🎁 License-verified free assets for creators: 219 resources for music, SFX, footage, photos, fonts, icons, LUTs, mockups & 3D, each tagged with attribution and monetization rules. ([Browse →](https://skyzhao1223.github.io/free-for-creators/))
+- **[free-for-creators](https://github.com/skyzhao1223/free-for-creators)** [![stars](https://img.shields.io/github/stars/skyzhao1223/free-for-creators?style=social)](https://github.com/skyzhao1223/free-for-creators/stargazers) — 🎁 License-verified free assets for creators: 221 resources for music, SFX, footage, photos, fonts, icons, LUTs, mockups & 3D, each tagged with attribution and monetization rules. ([Browse →](https://skyzhao1223.github.io/free-for-creators/))
 <!-- PROJECTS:EN:END -->
 
 ## 🔗 Links
